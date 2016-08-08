@@ -1,0 +1,107 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+.nav {
+	margin:0;
+	height:60px;
+	background-color:#4B4A4A;
+}
+
+.nav ul {
+	margin:0;
+	list-style: none;
+	color:#FFF;
+	line-height: 60px;
+}
+
+.nav ul li{
+	float:left;
+	padding-right: 30px;
+}
+.nav ul li a {
+	display: inline-block;
+	color:#FFF;
+	text-decoration: none;
+	line-height: 60px;
+}	
+
+.wrap {
+	width:800px;
+	margin:0 auto;
+}
+
+.banner {
+	height: 180px;
+	background-color: #34a545;
+	margin:0;
+}
+
+.banner h1 {
+	margin:0px;
+	color:rgba(255,255,255,0.8);
+	padding-top: 20px;
+	padding-left:5px;
+}
+.banner p {
+	margin:10px;
+	color:#fff;
+	
+}
+.content .wrap{
+	
+	padding:20px;
+	box-shadow: 0 0 10px lightgreen;
+	position:relative;
+	top:-40px;
+	left:50%;
+	margin-left: -40%;
+	background-color: #FFF;
+	min-height: 800px;
+
+}
+
+.content h2{
+	font-size: 22px;
+	color:#48b748;
+	margin:20px 0;
+
+}
+
+.content p {
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	padding:20px 0 40px;
+	border-bottom: 2px solid  lightgray;
+}
+
+.article {
+	width: 60%;
+}
+
+.about {
+
+	width:250px;
+	position:absolute;
+	top:10px;
+	left:50%;
+	margin-left: 120px;
+	overflow: hidden;
+}
+.about h3 {
+	font-size: 18px;
+	color:#48b748;
+	margin:20px 0;
+}
+.about p {
+	border-left: 4px solid lightgray;
+	border-bottom: none;
+	padding-left: 20px;
+}
+.footer {
+	clear:both;
+	overflow: hidden;
+	background: #000;
+	height: 50px;
+}

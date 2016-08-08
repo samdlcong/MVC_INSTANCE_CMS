@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新闻乱播</title>
+	<link rel="stylesheet" href="img/css/reset.css">
+	<link rel="stylesheet" href="img/css/main.css">
+</head>
+<body>
+	<div class="nav">
+		<div class="wrap">
+			<ul>
+				<li><a href="index.php">新闻首页</a></li>
+				<li><a href="#">关于我们</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="banner">
+		<div class="wrap">
+			<h1>新闻发布系统</h1>
+			<p>这是一个新闻发布的MVC案例</p>
+		</div>
+	</div>
+	<div class="content">
+		<div class="wrap">
+
+			<div class="article">
+				{foreach  $data as $news}
+				<h2><a href="index.php?controller=index&method=newsshow&id={$news.id}">{$news.title}</a></h2>
+				<p class="meta">{$news.author}发布于{$news.dateline}</p>
+				<p>
+				{$news.content}...more</p>
+			{/foreach}
+			</div>
+			
+			<div class="about">
+				<h3>关于我们</h3>
+				<p>{$about}</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer">
+		<div class="warp">
+			
+		</div>
+	</div>
+</body>
+</html>
+
